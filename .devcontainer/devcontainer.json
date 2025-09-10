@@ -1,6 +1,7 @@
 {
   "image": "tensorflow/tensorflow:2.12.0",
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {}
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/git-lfs:1": {}
   }
 }
