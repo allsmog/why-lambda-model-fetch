@@ -1,0 +1,6 @@
+{
+  "image": "tensorflow/tensorflow:2.12.0",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  }
+}
